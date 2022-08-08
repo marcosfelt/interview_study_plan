@@ -1,4 +1,4 @@
-# interview_study_plan
+# Interview Study Plan
 
 ## Algorithms and Data Structures
 
