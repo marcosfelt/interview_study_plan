@@ -34,3 +34,35 @@
     - Median of medians
     - Bit manipulation
     - Assembly (high level) - see this [video](https://www.youtube.com/watch?v=RZUDEaLa5Nw)
+    
+## Data Science and Machine Learning
+
+- Data wrangling
+    - SQL
+        -  Read and complete exercises in[ learn SQL the hard way](https://www.notion.so/kobifelton/Learn-SQL-the-Hard-Way-0defd79865fc4e7da2df9f66192d3b39)
+        -  Do the 30 questions from [this blog post](https://www.nicksingh.com/posts/30-sql-and-database-design-questions-from-real-data-science-interviews)
+        -  Create a cheat sheet for SQL
+    - Pandas
+        -  Do these [exercises](https://github.com/guipsamora/pandas_exercises#getting-and-knowing)
+        - Create a [cheat sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf) for pandas
+- Supervised learning
+    - Study tree based algorithms - start with these [slides](https://faculty.cc.gatech.edu/~hic/CS7616/pdf/lecture5.pdf)
+        - Decision treses
+        - Bagging
+        - Random forests 
+        - Gradient boosted trees
+    -  Create a cheat sheet
+        - Linear regression - normal, logistic, regularized\
+        - Bagging
+    - Deep learning / transfer learning
+        - NLP
+        - Computer vision
+        - Frameworks
+            - Pytorch
+            - JAX
+- Unsupervised learning
+    - Clustering - PCA/t-SNE
+- Black-box optimization
+    - Bayesian optimization
+    - Reinforcement learning
+
