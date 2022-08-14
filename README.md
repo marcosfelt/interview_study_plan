@@ -65,4 +65,13 @@
 - Black-box optimization
     - Bayesian optimization
     - Reinforcement learning
+    
+## Brain teasers
+
+- https://www.quantquestions.com
+
+## Statistics
+
+- https://www.probabilitycourse.com
+- [Probability and Statistics by Example](https://www.cambridge.org/core/books/probability-and-statistics-by-example/0F5FF4E3D29F11BB32733F8BD553A03C)
 
