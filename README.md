@@ -62,6 +62,7 @@
             - JAX
 - Unsupervised learning
     - Clustering - PCA/t-SNE
+    - Implement [k-means](https://www.youtube.com/watch?v=xKZHH-UOsUM)
 - Black-box optimization
     - Bayesian optimization
     - Reinforcement learning
