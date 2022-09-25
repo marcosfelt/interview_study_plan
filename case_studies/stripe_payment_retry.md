@@ -35,7 +35,11 @@ This case is based on [this video](https://www.youtube.com/watch?v=uCiBkaA4V6M) 
     - We want to maximize expected profit (i.e., $\max_{\mathcal D} \mathbb E[R]$). This first term sums over all the cases where we could successfully retry and the second term considers the case where none of our retries are successful.
     
     $$
-    \mathbb E[R] =\sum_{d_k \in \mathcal D} \biggl[P_s(d_k)(F-C_k)-\sum_{d_i \forall d_i<d_k }(1-P_s(d_i))C_i \biggr] - \sum_{d_i \in\mathcal D }(1-P_s(d_i))C_i
+    \mathbb E[R]=  \sum_{d_k \in \mathcal D} \biggl[ P_s(d_k)(F-C_k)-  \sum_{\mathcal D'}(1-P_s(d_i))C_i  \biggr] -\sum_{d_i \in\mathcal D }(1-P_s(d_i))C_i
+    $$
+    
+    $$
+     \{ d_i \in \mathcal D', d_k \in \mathcal D \vert d_i < d_k \}
     $$
     
     - Solve using integer linear programming (e.g., PuLP in python) for each failed transaction and solely act on any retries scheduled for today. Re-optimize every day.
